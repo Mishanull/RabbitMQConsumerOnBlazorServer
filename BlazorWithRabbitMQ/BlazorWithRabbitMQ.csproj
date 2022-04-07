@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Consumer\Consumer.csproj" />
+      <ProjectReference Include="..\Entities\Entities.csproj" />
+      <ProjectReference Include="..\FileDAO\FileDAO.csproj" />
+      <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
+      <ProjectReference Include="..\Interface\Interface.csproj" />
+    </ItemGroup>
+
+</Project>

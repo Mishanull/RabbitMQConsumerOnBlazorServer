@@ -1,0 +1,58 @@
+@page "/"
+@using Entities
+@using Interface
+@using System.ComponentModel
+@inject IProductDAO _productDao
+@inject StateContainer stateContainer;
+@inject NavigationManager navMgr;
+@implements IDisposable 
+<PageTitle>Index</PageTitle>
+
+<h1>Sent Products</h1>
+@if (!products.Any())
+{
+    <h1> There are no products sent yet</h1>
+}
+else
+{
+    foreach (var product in products)
+    {
+        <div class="card">
+            <div class="card-header">@product.ProductName</div>
+            <div class="card-footer"> @product.ProductId</div>
+        </div>
+        <br/>
+    }
+}
+@code{
+
+    private  ICollection<Product>? products=new List<Product>();
+    
+
+    protected override  void OnInitialized()
+    {
+        stateContainer.OnChange +=  Refresh;
+        products = _productDao.GetAllProducts().Result;
+    }
+
+    private async void Refresh()
+    {
+        await InvokeAsync(() =>
+        {
+            products =  _productDao.GetAllProducts().Result;
+            navMgr.NavigateTo(navMgr.Uri,forceLoad:true);
+        });
+    }
+
+    public void Dispose()
+    {
+        stateContainer.OnChange -= StateHasChanged;
+    }
+
+
+
+
+
+
+
+}

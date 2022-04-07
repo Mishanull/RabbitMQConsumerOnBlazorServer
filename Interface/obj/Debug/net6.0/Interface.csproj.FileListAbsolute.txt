@@ -1,0 +1,15 @@
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\Interface\bin\Debug\net6.0\Interface.deps.json
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\Interface\bin\Debug\net6.0\Interface.dll
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\Interface\bin\Debug\net6.0\Interface.pdb
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\Interface\bin\Debug\net6.0\Entities.dll
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\Interface\bin\Debug\net6.0\Entities.pdb
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\Interface\obj\Debug\net6.0\Interface.csproj.AssemblyReference.cache
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\Interface\obj\Debug\net6.0\Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\Interface\obj\Debug\net6.0\Interface.AssemblyInfoInputs.cache
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\Interface\obj\Debug\net6.0\Interface.AssemblyInfo.cs
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\Interface\obj\Debug\net6.0\Interface.csproj.CoreCompileInputs.cache
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\Interface\obj\Debug\net6.0\Interface.csproj.CopyComplete
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\Interface\obj\Debug\net6.0\Interface.dll
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\Interface\obj\Debug\net6.0\refint\Interface.dll
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\Interface\obj\Debug\net6.0\Interface.pdb
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\Interface\obj\Debug\net6.0\ref\Interface.dll

@@ -1,0 +1,17 @@
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\FileDAO\bin\Debug\net6.0\FileDAO.deps.json
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\FileDAO\bin\Debug\net6.0\FileDAO.dll
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\FileDAO\bin\Debug\net6.0\FileDAO.pdb
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\FileDAO\bin\Debug\net6.0\Entities.dll
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\FileDAO\bin\Debug\net6.0\Interface.dll
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\FileDAO\bin\Debug\net6.0\Entities.pdb
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\FileDAO\bin\Debug\net6.0\Interface.pdb
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\FileDAO\obj\Debug\net6.0\FileDAO.csproj.AssemblyReference.cache
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\FileDAO\obj\Debug\net6.0\FileDAO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\FileDAO\obj\Debug\net6.0\FileDAO.AssemblyInfoInputs.cache
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\FileDAO\obj\Debug\net6.0\FileDAO.AssemblyInfo.cs
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\FileDAO\obj\Debug\net6.0\FileDAO.csproj.CoreCompileInputs.cache
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\FileDAO\obj\Debug\net6.0\FileDAO.csproj.CopyComplete
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\FileDAO\obj\Debug\net6.0\FileDAO.dll
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\FileDAO\obj\Debug\net6.0\refint\FileDAO.dll
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\FileDAO\obj\Debug\net6.0\FileDAO.pdb
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\FileDAO\obj\Debug\net6.0\ref\FileDAO.dll
