@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lXftyySYxJbH+L6w7olvRq+1QKIPseYOJWuajLOEdeLA7Ar9fVxjK0k/nBbnW1sSA/ViYakf8qm+vN4mSfuadA==",
+  "dgSpecHash": "0mQ73rj9KkXgOHolXmRHHCoKvyNp9RPjlFkNW0ANWVEPnWQ4dtpdbeKbpjQ8NMi4S3ElR3JC1vpCyv0OzV0F6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mihai\\RiderProjects\\DNP1\\BlazorWithRabbitMQ\\FileDAO\\FileDAO.csproj",
+  "projectFilePath": "/home/mihai/RiderProjects/DNP1/RabbitMQConsumerOnBlazorServer/FileDAO/FileDAO.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

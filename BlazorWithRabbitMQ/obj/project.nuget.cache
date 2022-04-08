@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MjCGZDIVxcIdDBK5OyYgSMf91nsi93MfG5LF36pXLutsKNTPugETo9+8vaOHcJruzGZZuWgoRIUL7LH3pOWasQ==",
+  "dgSpecHash": "366vpFjbO6OC6y9V4D7P/FK7dhuVQsF1ZQPgne7n7tsg32eU1OHCTLyf0Bvl/rI43M96MMk4yo7HXPInHaLsQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mihai\\RiderProjects\\DNP1\\BlazorWithRabbitMQ\\BlazorWithRabbitMQ\\BlazorWithRabbitMQ.csproj",
+  "projectFilePath": "/home/mihai/RiderProjects/DNP1/RabbitMQConsumerOnBlazorServer/BlazorWithRabbitMQ/BlazorWithRabbitMQ.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Mihai\\.nuget\\packages\\rabbitmq.client\\6.2.4\\rabbitmq.client.6.2.4.nupkg.sha512",
-    "C:\\Users\\Mihai\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\Mihai\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+    "/home/mihai/.nuget/packages/rabbitmq.client/6.2.4/rabbitmq.client.6.2.4.nupkg.sha512",
+    "/home/mihai/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/home/mihai/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }

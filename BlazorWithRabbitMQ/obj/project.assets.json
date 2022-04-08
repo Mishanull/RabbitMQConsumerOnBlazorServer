@@ -33,21 +33,6 @@
           "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
         }
       },
-      "Consumer/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Entities": "1.0.0",
-          "Interfaces": "1.0.0",
-          "RabbitMQ.Client": "6.2.4"
-        },
-        "compile": {
-          "bin/placeholder/Consumer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Consumer.dll": {}
-        }
-      },
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -83,19 +68,6 @@
         },
         "runtime": {
           "bin/placeholder/Interface.dll": {}
-        }
-      },
-      "Interfaces/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Entities": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Interfaces.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Interfaces.dll": {}
         }
       }
     }
@@ -164,11 +136,6 @@
         "version.txt"
       ]
     },
-    "Consumer/1.0.0": {
-      "type": "project",
-      "path": "../Consumer/Consumer.csproj",
-      "msbuildProject": "../Consumer/Consumer.csproj"
-    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
@@ -183,70 +150,49 @@
       "type": "project",
       "path": "../Interface/Interface.csproj",
       "msbuildProject": "../Interface/Interface.csproj"
-    },
-    "Interfaces/1.0.0": {
-      "type": "project",
-      "path": "../Interfaces/Interfaces.csproj",
-      "msbuildProject": "../Interfaces/Interfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Consumer >= 1.0.0",
       "Entities >= 1.0.0",
       "FileDAO >= 1.0.0",
       "Interface >= 1.0.0",
-      "Interfaces >= 1.0.0"
+      "RabbitMQ.Client >= 6.2.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mihai\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/home/mihai/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mihai\\RiderProjects\\DNP1\\BlazorWithRabbitMQ\\BlazorWithRabbitMQ\\BlazorWithRabbitMQ.csproj",
+      "projectUniqueName": "/home/mihai/RiderProjects/DNP1/RabbitMQConsumerOnBlazorServer/BlazorWithRabbitMQ/BlazorWithRabbitMQ.csproj",
       "projectName": "BlazorWithRabbitMQ",
-      "projectPath": "C:\\Users\\Mihai\\RiderProjects\\DNP1\\BlazorWithRabbitMQ\\BlazorWithRabbitMQ\\BlazorWithRabbitMQ.csproj",
-      "packagesPath": "C:\\Users\\Mihai\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mihai\\RiderProjects\\DNP1\\BlazorWithRabbitMQ\\BlazorWithRabbitMQ\\obj\\",
+      "projectPath": "/home/mihai/RiderProjects/DNP1/RabbitMQConsumerOnBlazorServer/BlazorWithRabbitMQ/BlazorWithRabbitMQ.csproj",
+      "packagesPath": "/home/mihai/.nuget/packages/",
+      "outputPath": "/home/mihai/RiderProjects/DNP1/RabbitMQConsumerOnBlazorServer/BlazorWithRabbitMQ/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Mihai\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/mihai/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Mihai\\RiderProjects\\DNP1\\BlazorWithRabbitMQ\\Consumer\\Consumer.csproj": {
-              "projectPath": "C:\\Users\\Mihai\\RiderProjects\\DNP1\\BlazorWithRabbitMQ\\Consumer\\Consumer.csproj"
+            "/home/mihai/RiderProjects/DNP1/RabbitMQConsumerOnBlazorServer/Entities/Entities.csproj": {
+              "projectPath": "/home/mihai/RiderProjects/DNP1/RabbitMQConsumerOnBlazorServer/Entities/Entities.csproj"
             },
-            "C:\\Users\\Mihai\\RiderProjects\\DNP1\\BlazorWithRabbitMQ\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Mihai\\RiderProjects\\DNP1\\BlazorWithRabbitMQ\\Entities\\Entities.csproj"
+            "/home/mihai/RiderProjects/DNP1/RabbitMQConsumerOnBlazorServer/FileDAO/FileDAO.csproj": {
+              "projectPath": "/home/mihai/RiderProjects/DNP1/RabbitMQConsumerOnBlazorServer/FileDAO/FileDAO.csproj"
             },
-            "C:\\Users\\Mihai\\RiderProjects\\DNP1\\BlazorWithRabbitMQ\\FileDAO\\FileDAO.csproj": {
-              "projectPath": "C:\\Users\\Mihai\\RiderProjects\\DNP1\\BlazorWithRabbitMQ\\FileDAO\\FileDAO.csproj"
-            },
-            "C:\\Users\\Mihai\\RiderProjects\\DNP1\\BlazorWithRabbitMQ\\Interfaces\\Interfaces.csproj": {
-              "projectPath": "C:\\Users\\Mihai\\RiderProjects\\DNP1\\BlazorWithRabbitMQ\\Interfaces\\Interfaces.csproj"
-            },
-            "C:\\Users\\Mihai\\RiderProjects\\DNP1\\BlazorWithRabbitMQ\\Interface\\Interface.csproj": {
-              "projectPath": "C:\\Users\\Mihai\\RiderProjects\\DNP1\\BlazorWithRabbitMQ\\Interface\\Interface.csproj"
+            "/home/mihai/RiderProjects/DNP1/RabbitMQConsumerOnBlazorServer/Interface/Interface.csproj": {
+              "projectPath": "/home/mihai/RiderProjects/DNP1/RabbitMQConsumerOnBlazorServer/Interface/Interface.csproj"
             }
           }
         }
@@ -260,6 +206,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[6.2.4, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -278,7 +230,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/mihai/.dotnet/sdk/6.0.103/RuntimeIdentifierGraph.json"
       }
     }
   }

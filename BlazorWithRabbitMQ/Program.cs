@@ -2,7 +2,6 @@ using BlazorWithRabbitMQ;
 using BlazorWithRabbitMQ.Consumer;
 using FileDAO;
 using Interface;
-using Interfaces;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 
