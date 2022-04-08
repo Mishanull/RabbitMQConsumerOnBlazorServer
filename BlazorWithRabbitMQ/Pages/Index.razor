@@ -2,6 +2,7 @@
 @using Entities
 @using Interface
 @using System.ComponentModel
+@using System.IO.Pipelines
 @inject IProductDAO _productDao
 @inject StateContainer stateContainer;
 @inject NavigationManager navMgr;
@@ -29,7 +30,7 @@ else
     private  ICollection<Product>? products=new List<Product>();
     
 
-    protected override  void OnInitialized()
+    protected override    void OnInitialized()
     {
         stateContainer.OnChange +=  Refresh;
         products = _productDao.GetAllProducts().Result;
@@ -42,7 +43,9 @@ else
             // products =  _productDao.GetAllProducts().Result;
             // navMgr.NavigateTo(navMgr.Uri,forceLoad:true);
             _productDao.AddProduct(stateContainer.Property);
+            products = _productDao.GetAllProducts().Result;
             StateHasChanged();
+            Task.Delay(1);
         });
     }
 

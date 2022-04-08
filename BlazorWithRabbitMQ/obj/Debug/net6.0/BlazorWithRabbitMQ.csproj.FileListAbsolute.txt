@@ -7,9 +7,7 @@ C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\BlazorWithRabbitMQ\bin\Debu
 C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\BlazorWithRabbitMQ\bin\Debug\net6.0\BlazorWithRabbitMQ.dll
 C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\BlazorWithRabbitMQ\bin\Debug\net6.0\BlazorWithRabbitMQ.pdb
 C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\BlazorWithRabbitMQ\bin\Debug\net6.0\Entities.dll
-C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\BlazorWithRabbitMQ\bin\Debug\net6.0\Interfaces.dll
 C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\BlazorWithRabbitMQ\bin\Debug\net6.0\Entities.pdb
-C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\BlazorWithRabbitMQ\bin\Debug\net6.0\Interfaces.pdb
 C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\BlazorWithRabbitMQ\obj\Debug\net6.0\BlazorWithRabbitMQ.csproj.AssemblyReference.cache
 C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\BlazorWithRabbitMQ\obj\Debug\net6.0\BlazorWithRabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\BlazorWithRabbitMQ\obj\Debug\net6.0\BlazorWithRabbitMQ.AssemblyInfoInputs.cache

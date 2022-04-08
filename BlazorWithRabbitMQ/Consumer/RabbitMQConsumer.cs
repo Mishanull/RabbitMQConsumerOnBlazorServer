@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.IO.Pipelines;
+using System.Text;
 using System.Text.Json;
 using Entities;
 using Interface;
@@ -54,6 +55,7 @@ public class RabbitMQConsumer : BackgroundService
                  // _dao.AddProduct(p);
                  // state!.Property = "products updated";
                  state!.Property = p;
+                
             }
             Console.WriteLine(" [x] Received {0}", message);
         };
