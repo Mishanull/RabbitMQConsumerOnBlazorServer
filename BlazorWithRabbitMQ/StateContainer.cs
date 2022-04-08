@@ -1,16 +1,18 @@
-﻿namespace BlazorWithRabbitMQ;
+﻿using Entities;
+
+namespace BlazorWithRabbitMQ;
 
 public class StateContainer
 {
     
-    private string? savedString;
-
-    public string Property
+    // private string? savedString;
+    private Product? savedProduct;
+    public Product Property
     {
-        get => savedString ?? string.Empty;
+        get => savedProduct ?? new Product();
         set
         {
-            savedString = value;
+            savedProduct = value;
             NotifyStateChanged();
         }
     }

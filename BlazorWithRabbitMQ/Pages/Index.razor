@@ -39,8 +39,10 @@ else
     {
         await InvokeAsync(() =>
         {
-            products =  _productDao.GetAllProducts().Result;
-            navMgr.NavigateTo(navMgr.Uri,forceLoad:true);
+            // products =  _productDao.GetAllProducts().Result;
+            // navMgr.NavigateTo(navMgr.Uri,forceLoad:true);
+            _productDao.AddProduct(stateContainer.Property);
+            StateHasChanged();
         });
     }
 

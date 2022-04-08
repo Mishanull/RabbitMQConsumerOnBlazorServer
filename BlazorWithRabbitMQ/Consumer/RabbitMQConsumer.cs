@@ -51,8 +51,9 @@ public class RabbitMQConsumer : BackgroundService
             {
                 var _dao = scope.ServiceProvider.GetRequiredService<IProductDAO>();
                 var state = scope.ServiceProvider.GetService<StateContainer>();
-                 _dao.AddProduct(p);
-                 state!.Property = "products updated";
+                 // _dao.AddProduct(p);
+                 // state!.Property = "products updated";
+                 state!.Property = p;
             }
             Console.WriteLine(" [x] Received {0}", message);
         };
