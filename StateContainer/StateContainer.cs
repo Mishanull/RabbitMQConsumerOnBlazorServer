@@ -1,24 +1,25 @@
 ﻿using Entities;
 
-namespace BlazorWithRabbitMQ;
+namespace StateContainer;
 
 public class StateContainer
 {
     
     // private string? savedString;
     private Product? savedProduct;
+    public event Action OnChange;
     public Product Property
     {
         get => savedProduct ?? new Product();
         set
         {
             savedProduct = value;
+            Console.WriteLine(value);
             NotifyStateChanged();
         }
     }
 
-    public event Action OnChange;
-
-    private void NotifyStateChanged() => 
-        OnChange?.Invoke();
+    
+    
+    private void NotifyStateChanged() => OnChange?.Invoke();
 }

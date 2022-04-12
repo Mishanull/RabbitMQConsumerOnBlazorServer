@@ -1,9 +1,9 @@
-using BlazorWithRabbitMQ;
-using BlazorWithRabbitMQ.Consumer;
 using FileDAO;
 using Interface;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using RabbitMQ.Client.Logging;
+using RabbitMqConsumer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,10 +11,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddHostedService<RabbitMQConsumer>();
+// builder.Services.AddHostedService<RabbitMQConsumer>();
 builder.Services.AddScoped<IProductDAO, ProductFileDao>();
 builder.Services.AddScoped<ProductContext>();
-builder.Services.AddSingleton<StateContainer>();
+builder.Services.AddSingleton<StateContainer.StateContainer>();
+builder.Services.AddSingleton<Consumer>();
+builder.Services.AddHostedService(sp=>sp.GetService<Consumer>());
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

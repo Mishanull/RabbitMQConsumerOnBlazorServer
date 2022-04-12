@@ -1,21 +1,19 @@
-﻿using System.IO.Pipelines;
-using System.Text;
+﻿using System.Text;
 using System.Text.Json;
 using Entities;
-using Interface;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
+using StateContainer;
+namespace RabbitMqConsumer;
 
-namespace BlazorWithRabbitMQ.Consumer;
-
-public class RabbitMQConsumer : BackgroundService
+public class Consumer: BackgroundService
 {
     private IServiceProvider _sp;
     private ConnectionFactory _factory;
     private IConnection _connection;
     private IModel _channel;
 
-    public RabbitMQConsumer(IServiceProvider sp)
+    public Consumer(IServiceProvider sp)
     {
         _sp = sp;
         _factory = new ConnectionFactory() {HostName = "localhost", UserName = "guest", Password = "guest"};
@@ -50,11 +48,11 @@ public class RabbitMQConsumer : BackgroundService
             var message = Encoding.UTF8.GetString(body);
             using (var scope = _sp.CreateScope())
             {
-                var _dao = scope.ServiceProvider.GetRequiredService<IProductDAO>();
-                var state = scope.ServiceProvider.GetService<StateContainer>();
-                 // _dao.AddProduct(p);
-                 // state!.Property = "products updated";
-                 state!.Property = p;
+                // var _dao = scope.ServiceProvider.GetRequiredService<IProductDAO>();
+                var state = scope.ServiceProvider.GetService<StateContainer.StateContainer>();
+                // _dao.AddProduct(p);
+                // state!.Property = "products updated";
+                state!.Property = p;
                 
             }
             Console.WriteLine(" [x] Received {0}", message);

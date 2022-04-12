@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Inte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDAO", "FileDAO\FileDAO.csproj", "{82CBA66B-001C-4E43-AA62-4DDE3F0CA060}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqConsumer", "RabbitMqConsumer\RabbitMqConsumer.csproj", "{F3306224-A621-415E-B771-A2C7A25ECED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateContainer", "StateContainer\StateContainer.csproj", "{7E6F941C-72A0-4408-86F2-1BB7BB91B949}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{82CBA66B-001C-4E43-AA62-4DDE3F0CA060}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82CBA66B-001C-4E43-AA62-4DDE3F0CA060}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82CBA66B-001C-4E43-AA62-4DDE3F0CA060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3306224-A621-415E-B771-A2C7A25ECED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3306224-A621-415E-B771-A2C7A25ECED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3306224-A621-415E-B771-A2C7A25ECED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3306224-A621-415E-B771-A2C7A25ECED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6F941C-72A0-4408-86F2-1BB7BB91B949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6F941C-72A0-4408-86F2-1BB7BB91B949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6F941C-72A0-4408-86F2-1BB7BB91B949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6F941C-72A0-4408-86F2-1BB7BB91B949}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

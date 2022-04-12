@@ -1,0 +1,15 @@
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\StateContainer\bin\Debug\net6.0\StateContainer.deps.json
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\StateContainer\bin\Debug\net6.0\StateContainer.dll
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\StateContainer\bin\Debug\net6.0\StateContainer.pdb
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\StateContainer\bin\Debug\net6.0\Entities.dll
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\StateContainer\bin\Debug\net6.0\Entities.pdb
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\StateContainer\obj\Debug\net6.0\StateContainer.csproj.AssemblyReference.cache
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\StateContainer\obj\Debug\net6.0\StateContainer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\StateContainer\obj\Debug\net6.0\StateContainer.AssemblyInfoInputs.cache
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\StateContainer\obj\Debug\net6.0\StateContainer.AssemblyInfo.cs
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\StateContainer\obj\Debug\net6.0\StateContainer.csproj.CoreCompileInputs.cache
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\StateContainer\obj\Debug\net6.0\StateContainer.csproj.CopyComplete
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\StateContainer\obj\Debug\net6.0\StateContainer.dll
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\StateContainer\obj\Debug\net6.0\refint\StateContainer.dll
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\StateContainer\obj\Debug\net6.0\StateContainer.pdb
+C:\Users\Mihai\RiderProjects\DNP1\BlazorWithRabbitMQ\StateContainer\obj\Debug\net6.0\ref\StateContainer.dll

@@ -10,6 +10,8 @@
       <ProjectReference Include="..\Entities\Entities.csproj" />
       <ProjectReference Include="..\FileDAO\FileDAO.csproj" />
       <ProjectReference Include="..\Interface\Interface.csproj" />
+      <ProjectReference Include="..\RabbitMqConsumer\RabbitMqConsumer.csproj" />
+      <ProjectReference Include="..\StateContainer\StateContainer.csproj" />
     </ItemGroup>
 
     <ItemGroup>
